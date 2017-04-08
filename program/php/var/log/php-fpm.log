@@ -1,0 +1,40 @@
+[12-Jan-2017 01:01:00] ERROR: [pool www] cannot get uid for user 'www'
+[12-Jan-2017 01:01:00] ERROR: FPM initialization failed
+[12-Jan-2017 01:02:07] NOTICE: fpm is running, pid 12649
+[12-Jan-2017 01:02:07] NOTICE: ready to handle connections
+[12-Jan-2017 02:01:05] NOTICE: Terminating ...
+[12-Jan-2017 02:01:05] NOTICE: exiting, bye-bye!
+[12-Jan-2017 02:02:33] NOTICE: fpm is running, pid 13420
+[12-Jan-2017 02:02:33] NOTICE: ready to handle connections
+[12-Jan-2017 06:22:04] NOTICE: Terminating ...
+[12-Jan-2017 06:22:04] NOTICE: exiting, bye-bye!
+[12-Jan-2017 06:22:25] NOTICE: fpm is running, pid 19385
+[12-Jan-2017 06:22:25] NOTICE: ready to handle connections
+[12-Jan-2017 06:23:22] ERROR: unable to bind listening socket for address '127.0.0.1:9000': Address already in use (98)
+[12-Jan-2017 06:23:22] ERROR: FPM initialization failed
+[12-Jan-2017 06:23:47] ERROR: unable to bind listening socket for address '127.0.0.1:9000': Address already in use (98)
+[12-Jan-2017 06:23:47] ERROR: FPM initialization failed
+[12-Jan-2017 06:32:01] NOTICE: Reloading in progress ...
+[12-Jan-2017 06:32:01] NOTICE: reloading: execvp("/opt/program/php/sbin/php-fpm", {"/opt/program/php/sbin/php-fpm"})
+[12-Jan-2017 06:32:01] NOTICE: using inherited socket fd=7, "127.0.0.1:9000"
+[12-Jan-2017 06:32:01] NOTICE: using inherited socket fd=7, "127.0.0.1:9000"
+[12-Jan-2017 06:32:01] NOTICE: fpm is running, pid 19438
+[12-Jan-2017 06:32:01] NOTICE: ready to handle connections
+[12-Jan-2017 06:34:19] NOTICE: Finishing ...
+[12-Jan-2017 06:34:19] NOTICE: exiting, bye-bye!
+[12-Jan-2017 06:35:04] NOTICE: fpm is running, pid 19454
+[12-Jan-2017 06:35:04] NOTICE: ready to handle connections
+[13-Jan-2017 02:45:22] NOTICE: Finishing ...
+[13-Jan-2017 02:45:22] NOTICE: exiting, bye-bye!
+[13-Jan-2017 03:53:46] NOTICE: fpm is running, pid 29751
+[13-Jan-2017 03:53:46] NOTICE: ready to handle connections
+[13-Jan-2017 08:44:50] NOTICE: Terminating ...
+[13-Jan-2017 08:44:50] NOTICE: exiting, bye-bye!
+[13-Jan-2017 08:48:11] NOTICE: fpm is running, pid 385
+[13-Jan-2017 08:48:11] NOTICE: ready to handle connections
+[18-Jan-2017 05:09:59] NOTICE: Terminating ...
+[18-Jan-2017 05:09:59] NOTICE: exiting, bye-bye!
+[08-Feb-2017 02:45:50] NOTICE: fpm is running, pid 30661
+[08-Feb-2017 02:45:50] NOTICE: ready to handle connections
+[08-Feb-2017 02:52:36] NOTICE: Terminating ...
+[08-Feb-2017 02:52:36] NOTICE: exiting, bye-bye!
