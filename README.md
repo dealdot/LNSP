@@ -1,12 +1,12 @@
 ### 免编译服务器集成环境 LNSP
 
-1.LNSP是什么
+1. LNSP是什么
 
 LNSP (Linux Nginx SQLITE3 PHP),好羞愧 ^\_\^, LNSP原指:LABORATORY FOR NUCLEAR SECURITY AND POLICY(核安全与政策研究实验室,来自MIT)
 
 LNSP是在linux上适用的nginx+php(支持sqlite3)的服务器架构环境,nginx版本:1.10.2,php版本:5.6.29
 
-2. 为什么我要做这个集成环境?
+2. 我为什么要做这个集成环境?
 
 `apachefriends.org`上提供一个服务器集成环境xampp,这个环境之所以好是因为它把我们常用的apache,mysql,php,phpmyadmin,proftpd这些软件集成在一起。安装过程非常简单,不需要编译,环境依赖都给我们搞好了,因此使用非常方便.
 
@@ -49,7 +49,7 @@ LNSP是在linux上适用的nginx+php(支持sqlite3)的服务器架构环境,ngin
 7. 如何过滤违禁词,敏感词
 
 采用淘宝团队成员开发的模块`ngx_http_substitutions_filter_module `来实现过滤违禁词,敏感词
-这里命名为subkeywords.conf,放置在 /opt/program/nginx/conf/下,比如我们网站上用了其它公司的名字,千万侵权之类的,只需要把该公司的名字放到subkeywords.conf里就可以在显示的时候过滤掉
+这里命名为subkeywords.conf,放置在 /opt/program/nginx/conf/下,比如我们网站上用了其它公司的名字,造成侵权之类的,只需要把该公司的名字放到subkeywords.conf里就可以在显示的时候过滤掉
 
 8. 启动,停止,重启nginx,php-fpm
 
@@ -76,10 +76,6 @@ php-fpm配置文件php-fpm.conf 在`/opt/program/php/etc`下
 nginx日志文件在 `/opt/program/nginx/logs`下
 
 php-fpm 日志文件在 `/opt/program/php/var/log`下,默认关闭了php的error log
-
-10. 待改进的地方
-
-nginx与php的配置没有针对512的VPS进行最佳优化
 
 附上网站不带www的跳到带www, 如 `mkdir apple.com`
 ```
